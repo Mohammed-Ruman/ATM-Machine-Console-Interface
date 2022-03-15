@@ -13,7 +13,7 @@ public class UserDatabase {
 		return user1;
 	}
 
-	public User shareef_database() {
+	public User suhan_database() {
 		User user2 = new User();
 		user2.setName("Shareef");
 		user2.setAcc_num("0987654321");
