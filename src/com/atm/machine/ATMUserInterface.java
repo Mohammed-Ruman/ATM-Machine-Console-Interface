@@ -16,7 +16,7 @@ public class ATMUserInterface {
 
 	static UserDatabase database = new UserDatabase();
 	static User user1_data = database.ghazan_database();
-	static User user2_data = database.shareef_database();
+	static User user2_data = database.suhan_database();
 	static User user3_data = database.faizan_database();
 	
 	static List<Transaction> user1_statements = new ArrayList<Transaction>();//[]
@@ -65,7 +65,7 @@ public class ATMUserInterface {
 				System.err.println("Enter valid pin!");
 				count++;
 				if(count==3) {
-					System.err.println("Account Locked!!! Please contact shareef to unlock");
+					System.err.println("Account Locked!!! Please contact Admin to unlock");
 					user_data.setIsAccountLocked(true);
 					count=0;
 				}

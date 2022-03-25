@@ -15,7 +15,7 @@ public class UserDatabase {
 
 	public User suhan_database() {
 		User user2 = new User();
-		user2.setName("Shareef");
+		user2.setName("suhan");
 		user2.setAcc_num("0987654321");
 		user2.setBalance("0");
 		user2.setPin_num("4321");
